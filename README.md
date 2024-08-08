@@ -1,1 +1,1 @@
-"# travelapp" 
+The aim of this project is to develop a system using OpenAI GPT-3's Chat completion feature to create personalized travel itineraries for users. Users will input details such as their destination, trip duration, budget, and preferred activities. Based on this information, the Travel Planner will generate a customized travel itinerary tailored to the user's preferences and constraints.
