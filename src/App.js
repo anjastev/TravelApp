@@ -453,14 +453,15 @@ const CuisineType = styled.div`
     border-radius: 0.4rem;
   }
 `;
-
-const InfoContainer = styled.div`
+/*
+ const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 2rem;
 `;
+
 
 const Info = styled.div`
   margin: 1rem;
@@ -500,6 +501,7 @@ const LeadInput = styled.input`
   margin-bottom: 1rem;
 `;
 
+
 const LeadButton = styled.button`
   padding: 0.5rem 1.5rem;
   background-color: #007bff;
@@ -513,7 +515,7 @@ const LeadButton = styled.button`
     background-color: #0069d9;
   }
 `;
-
+*/
 const options = {
   travelStyles: [
     "Cultural",
