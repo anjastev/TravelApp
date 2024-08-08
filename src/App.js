@@ -163,14 +163,14 @@ const Button = styled.button`
   border: none;
   font-size: 1rem;
 
-  background-color: #0080ff;
+  background-color: #ffdd40;
   color: #fff;
   cursor: pointer;
   border-radius: 0.4rem;
   transition: background-color 0.3s ease-in-out;
 
   &:hover {
-    background-color: #00bf2f;
+    background-color: #333333;
   }
 
   &:disabled {
@@ -346,7 +346,7 @@ const ActionButton = styled.button`
   }
 
   &:hover {
-    background-color: #dadada;
+    background-color: #ffee50;
     border: 1px solid #ccc;
   }
 `;
@@ -622,7 +622,7 @@ const defaultValues = {
 
 const Main = ({ loading, response, handleSubmit, handleChange, email }) => (
   <MainContent>
-    <Title>⭐️ Travel Planner ⭐️</Title>
+    <Title>☀️  Travel Planner ☀️ </Title>
     {!response && <Subtitle>Fill the form to generate your itinerary</Subtitle>}
 
     <ResponseContainer>
